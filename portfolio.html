@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abigail Huerta De Los Santos</title>
+    <link rel="shortcut icon" href="media/logo.svg" type="image/svg">
+    <link href="css/gg.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/site.css">   
+</head>
+<body>
+    <div class="main-content">
+        <!--Aside: Para mostrar una lista de enlaces o barras laterales -->
+        <aside>
+            <div class="profile">
+                <img src="media/avatar.png" id="photo-profile" class="my-photo"/>
+                <div>
+                    <h1 class="title">Abigail Huerta</h1>
+                    <div class="badge-profile">Instructora</div>
+                    <div class="social">
+                        <a href="facebook.com" target="_blank"><i class="gg-facebook"></i></a>
+                        <a href="x.com" target="_blank"><i class="gg-twitter"></i></a>
+                        <a href="youtube.com" target="_blank"><i class="gg-youtube"></i></a>
+                        <a href="pokemon-go.com" target="_blank"><i class='gg-pokemon'></i></a>
+                    </div>
+                </div>
+                <div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i> 12, Julio 2024</li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i> Puebla, México</li>
+                        <li class="contacts-block-item"><a href="mailto:abi_1816@hotmail.com"><i class="gg-mail"></i> abi_1816@hotmail.com</a></li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i> 1 22222222</li>
+                        <li class="contacts-block-item"><a href="skype:ejemplo"> abi_1816</a></li>
+                    </ul>
+                    <a class="btn" href="media/L01.pdf">Descargar CV</a>
+                </div>
+            </div>
+        </aside>
+        <section class="resume">
+            <header>
+                <div class="menu-circle">
+                    <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+                </div>
+                <div class="inner-menu js-menu">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="index.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portfolio.html">Portafolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div>
+                <h2 class="title bordered">Portafolio</h2>
+                <div class="portfolio">
+                    <img src="media/portfolio/slide1.jpg" alt="postre 1" onclick="showImage(this)"/>
+                    <img src="media/portfolio/slide2.webp" onclick="showImage(this)" />
+                    <img src="media/portfolio/slide3.jpg" alt="postre 1" onclick="showImage(this)"/>
+                    <img src="media/portfolio/slide4.webp" alt="postre 1" onclick="showImage(this)"/>
+                    <img src="media/portfolio/slide5.jfif" alt="postre 1" onclick="showImage(this)"/>
+                    <img src="media/portfolio/slide6.jfif" alt="postre 1" onclick="showImage(this)"/>
+                    <img src="media/portfolio/slide7.avif" alt="postre 1" onclick="showImage(this)"/>
+                </div>
+                <div class="modal" id="preview"></div>
+            </div>
+        </section>
+    </div>
+    <footer>Autor: Abigail Huerta - Developer Front-end</footer>
+    <script src="js/site.js"></script>
+</body>
+</html>
